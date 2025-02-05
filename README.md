@@ -32,7 +32,7 @@ Este projeto implementa um temporizador para controle de LEDs em um microcontrol
 ## Instrução de Uso
 
 1. Clone o repositório do projeto:
-[https://github.com/FilipeVBF/EmbarcaTech_tarefa_one_shot.git]
+https://github.com/FilipeVBF/EmbarcaTech_tarefa_one_shot.git
 2. Importe a pasta do projeto para o ambiente de desenvolvimento do Pico SDK.
 3. Carregue o programa no Raspberry Pi Pico W
 4. Compile o código
