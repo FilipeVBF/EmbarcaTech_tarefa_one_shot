@@ -8,9 +8,9 @@ Este projeto implementa um temporizador para controle de LEDs em um microcontrol
 
 - Quando o botão é pressionado, três LEDs (azul, vermelho e verde) são acionados simultaneamente.
 - O sistema altera o estado dos LEDs de acordo com um temporizador de 3 segundos:
--- Primeiro, os três LEDs permanecem acesos.
--- Após 3 segundos, dois LEDs são desligados, deixando apenas um aceso.
--- Após mais 3 segundos, o último LED é desligado.
+  - Primeiro, os três LEDs permanecem acesos.
+  - Após 3 segundos, dois LEDs são desligados, deixando apenas um aceso.
+  - Após mais 3 segundos, o último LED é desligado.
 - Durante a execução dos timers, o botão não pode reiniciar o ciclo até que o último LED seja desligado, evitando múltiplas ativações.
 - Implementação de debounce de software para garantir a estabilidade da leitura do botão e evitar acionamentos errôneos.
 
